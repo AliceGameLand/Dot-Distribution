@@ -200,10 +200,10 @@
     "source": "defaults/servers.dat"
   },
   {
-    "name": "icon.png",
-    "size": 283588,
-    "MD5": "301d10892b6845b6a14d72e556e643ce",
-    "SHA256": "207396ff1293526f8cac8943330601f4b8f0b7f49e7fd47d23919b3292d750a2",
-    "source": "metadata/icon.png"
+    "name": "diamond.png",
+    "size": 962,
+    "MD5": "0edc67c1b3cce597661c2a76b8372754",
+    "SHA256": "cb870eb316ea8fc92c940ff2145d284cc47d3c498b874fcb6ec412a0c1275b02",
+    "source": "metadata/diamond.png"
   }
 ]

@@ -1,11 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "servers": [
     {
       "id": "DiamondCK-26.2",
       "name": "다이아ck",
       "description": "Minecraft 26.2 · NeoForge",
-      "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.0/icon.png",
+      "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.0/diamond.png",
       "version": "1.0.0",
       "address": "alicehiyam.dreamcraft.kr:25568",
       "minecraftVersion": "26.2",
