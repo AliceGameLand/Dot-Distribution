@@ -51,6 +51,10 @@ const modNames = [...paths].filter(destination => destination.startsWith('mods/'
 for (const prefix of ['donation-', 'sophisticatedbackpacks-', 'sophisticatedcore-', 'sodium-', 'iris-', 'koreanify-', 'journeymap-']) {
     assert.ok(modNames.some(name => path.basename(name).startsWith(prefix)), `Required mod missing: ${prefix}`)
 }
+assert.ok(modNames.includes('mods/donation-neoforge-26.2-3.0.1-kkommoli.jar'), 'Kkommoli donation relay missing')
+assert.ok(modNames.includes('mods/KkommoliDiamondBridge-1.0.0.jar'), 'Required donation bridge missing')
+assert.equal(modNames.filter(name => path.basename(name).startsWith('donation-')).length, 1, 'Duplicate donation mods')
+assert.equal(modNames.includes('mods/donation-neoforge-26.2-3.0.1-patched.jar'), false, 'Retired Alice relay must not be installed')
 for (const destination of ['options.txt', 'config/iris.properties', 'servers.dat']) {
     assert.equal(server.modules.find(module => module.artifact.path === destination)?.artifact.MD5, undefined)
     assert.ok(paths.has(destination))

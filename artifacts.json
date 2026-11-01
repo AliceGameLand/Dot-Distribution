@@ -19,12 +19,6 @@
     "SHA256": "650cdc79fcb3332dd08d75634443b93b012dba49b748359a4a97f0975bc55c31"
   },
   {
-    "name": "mods--donation-neoforge-26.2-3.0.1-patched.jar",
-    "size": 832561,
-    "MD5": "6aa1be85ac6f8e3f4e2b87a58f0cfb43",
-    "SHA256": "84b264b1f991376e9cccfdc26e0574cbbae5f2989168d81089bb64d5e2734ef5"
-  },
-  {
     "name": "mods--dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar",
     "size": 185732,
     "MD5": "8b2956d8a2dc4846ba9c3e54d885cce6",
@@ -205,5 +199,19 @@
     "MD5": "0edc67c1b3cce597661c2a76b8372754",
     "SHA256": "cb870eb316ea8fc92c940ff2145d284cc47d3c498b874fcb6ec412a0c1275b02",
     "source": "metadata/diamond.png"
+  },
+  {
+    "name": "mods--donation-neoforge-26.2-3.0.1-kkommoli.jar",
+    "size": 832562,
+    "MD5": "d4115b6a5ea187a16fe8ec16ee97268d",
+    "SHA256": "6e775797d097d6cb4181c9a0389c43bb9ba9c35c12b307e57b554e34c34f2f64",
+    "source": "modules/donation-neoforge-26.2-3.0.1-kkommoli.jar"
+  },
+  {
+    "name": "mods--KkommoliDiamondBridge-1.0.0.jar",
+    "size": 13923,
+    "MD5": "fa68eec6c6b509e55f3313a56dde7f68",
+    "SHA256": "811becc0f0fb8d77cacdea1d3fe85a02588dd3b66a03335147442f13dd57b294",
+    "source": "modules/KkommoliDiamondBridge-1.0.0.jar"
   }
 ]
