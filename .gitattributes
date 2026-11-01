@@ -1,0 +1,5 @@
+# 배포 해시가 체크아웃 환경의 줄바꿈 변환으로 바뀌지 않게 한다.
+defaults/** -text
+metadata/** -text
+distribution.json text eol=lf
+artifacts.json text eol=lf
