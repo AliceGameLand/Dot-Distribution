@@ -1,0 +1,13 @@
+{
+  "name": "dot-distribution",
+  "version": "1.0.0",
+  "description": "귀염뽀쨕도트 런처 배포 파일",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "22.x.x" },
+  "scripts": {
+    "prepare": "node scripts/prepare.mjs",
+    "verify": "node scripts/verify.mjs",
+    "verify:remote": "node scripts/verify.mjs --remote"
+  }
+}

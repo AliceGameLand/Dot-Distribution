@@ -1,0 +1,4 @@
+.release-assets/
+.cache/
+node_modules/
+*.log

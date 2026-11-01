@@ -1,0 +1,209 @@
+[
+  {
+    "name": "neoforge-26.2.0.60-version.json",
+    "size": 11561,
+    "MD5": "40c09b8fbb88cfa6639d1557f83cf2b5",
+    "SHA256": "ef5422c36daa1ebbee5ba1d5011e09d8b53b9eaaaa2b4943354be72b02f5e769",
+    "source": "metadata/neoforge-26.2.0.60-version.json"
+  },
+  {
+    "name": "mods--ImmediatelyFast-NeoForge-1.16.3+26.2.jar",
+    "size": 100062,
+    "MD5": "6b3af3891b67f8e6cac866e40898b486",
+    "SHA256": "8e81af7938dfb62a5424aa752033afacf83da5ce563856692588b3caff64fc69"
+  },
+  {
+    "name": "mods--cloth-config-26.2.155.jar",
+    "size": 1135847,
+    "MD5": "fb6cd45d0b6a3cca7c2e33064eec7d37",
+    "SHA256": "650cdc79fcb3332dd08d75634443b93b012dba49b748359a4a97f0975bc55c31"
+  },
+  {
+    "name": "mods--donation-neoforge-26.2-3.0.1-patched.jar",
+    "size": 832561,
+    "MD5": "6aa1be85ac6f8e3f4e2b87a58f0cfb43",
+    "SHA256": "84b264b1f991376e9cccfdc26e0574cbbae5f2989168d81089bb64d5e2734ef5"
+  },
+  {
+    "name": "mods--dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar",
+    "size": 185732,
+    "MD5": "8b2956d8a2dc4846ba9c3e54d885cce6",
+    "SHA256": "671ce4eac9c1c7411dae050773e8cca15b69a1cd9955bac9cb54f6093964f1ff"
+  },
+  {
+    "name": "mods--fast-ip-ping-v1.0.11-mc26.1.2.jar",
+    "size": 11187,
+    "MD5": "d0077b329847194486167639b26f715a",
+    "SHA256": "25db49898876554cb1ef5f2e6c514890fa2a82d1c0fbccfe41b7f08b0b65a19c"
+  },
+  {
+    "name": "mods--ferritecore-9.0.0-neoforge.jar",
+    "size": 71947,
+    "MD5": "b2fde13466c357340262d60a213f8805",
+    "SHA256": "a3292dadb1caf7ad220d3a4b68abff2ad58592ddd372160f9cf66c57d159b539"
+  },
+  {
+    "name": "mods--iris-neoforge-1.11.2+mc26.2.jar",
+    "size": 2751198,
+    "MD5": "f7d81c2ae001ae4b67c8aa37d10b81ff",
+    "SHA256": "d30e423e9bc052301a8f98c8043e2af27ca9bda1e11538e550074b4da5c8d69e"
+  },
+  {
+    "name": "mods--koreanify-neoforge-0.1.10+mc26.1.2.jar",
+    "size": 75265,
+    "MD5": "dfe88a8f5b7f71825b4853a3b4568eef",
+    "SHA256": "caf916e396d7d6aa87fe3586f997fefafb54e24c7e6757eb6b8dd644e7c68432"
+  },
+  {
+    "name": "mods--lithium-neoforge-0.25.3+mc26.2.jar",
+    "size": 904073,
+    "MD5": "76dd1e0241a8a350ff3a249502243fd2",
+    "SHA256": "7a080146f5c428e3a4a34cc3526c57c71cace5e962019081cb1d45c9d55dec7a"
+  },
+  {
+    "name": "mods--moreculling-neoforge-26.2-1.8.1.jar",
+    "size": 349733,
+    "MD5": "a55e6bfed0ba141f94e7743fc190f501",
+    "SHA256": "2fc3af6b340a6d3873c32c9a637f66cecc7aa87adca17622828bc8f56bf79623"
+  },
+  {
+    "name": "mods--sodium-neoforge-0.9.1+mc26.2.jar",
+    "size": 1128681,
+    "MD5": "3d78443ef59b6049ecd2847a6055a0b1",
+    "SHA256": "99211fc2a1d91c9beaa569044d191c08c68a1dbf5eb9bf1f5ee8296b9f768c81"
+  },
+  {
+    "name": "mods--sophisticatedbackpacks-26.2-3.26.2.2154.jar",
+    "size": 1264857,
+    "MD5": "76cadcd36a7d51ecabdc9703e83cc497",
+    "SHA256": "2a6177b7801998d5cdd0d1aa68b39d1f8eb7b0f5093f3f05c037584c4ea8a404"
+  },
+  {
+    "name": "mods--sophisticatedcore-26.2-1.5.0.2337.jar",
+    "size": 1834409,
+    "MD5": "fc6848147c2c4dd2140352d2f4ab0310",
+    "SHA256": "01549a56f4137c1dd07da2488ce0098736e6898b3d2fc32dd76c94c265dd418e"
+  },
+  {
+    "name": "config--dynamic_fps.json",
+    "size": 3,
+    "MD5": "8a80554c91d9fca8acb82f023de02f11",
+    "SHA256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "source": "defaults/config/dynamic_fps.json"
+  },
+  {
+    "name": "config--ferritecore-mixin.toml",
+    "size": 809,
+    "MD5": "fcd4183c63696df4a3cab78dc24853b6",
+    "SHA256": "f5659957a2583f18c9c45c2053e3c3c84022499555c30ed54fa4d36e7bca3ad5",
+    "source": "defaults/config/ferritecore-mixin.toml"
+  },
+  {
+    "name": "config--immediatelyfast.json",
+    "size": 912,
+    "MD5": "2f8d26126729cff4a74e4f1248d28b8a",
+    "SHA256": "869c9d9969c018afd4faccf19b1028a7689866e1b83e1649e8ff161544bc1362",
+    "source": "defaults/config/immediatelyfast.json"
+  },
+  {
+    "name": "config--iris-excluded.json",
+    "size": 31,
+    "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+    "SHA256": "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb",
+    "source": "defaults/config/iris-excluded.json"
+  },
+  {
+    "name": "config--iris.properties",
+    "size": 276,
+    "MD5": "afa2e27c073a1886a4f79b88ff2326b4",
+    "SHA256": "5885b3f1ae0cf4543ed087a3942ea5179246cb4a32f195644e586b42657d64f5",
+    "source": "defaults/config/iris.properties"
+  },
+  {
+    "name": "config--lithium.properties",
+    "size": 267,
+    "MD5": "65a61a8f2201e0a571d48a7f0295da19",
+    "SHA256": "6cf6f83720071fd1657c8e79b357caf68d40f410ae123e5f922483eb1d1d25be",
+    "source": "defaults/config/lithium.properties"
+  },
+  {
+    "name": "config--moreculling.toml",
+    "size": 495,
+    "MD5": "22d737e6f7603d86e8f71ad9d7fcb6fa",
+    "SHA256": "976a76d9aeb5c7e9c2a2293dfd1b38a850c20948ffaf813221868089e2fa0953",
+    "source": "defaults/config/moreculling.toml"
+  },
+  {
+    "name": "config--neoforge-client.toml",
+    "size": 1456,
+    "MD5": "c14015609f5e20ae457434d5cf5fe484",
+    "SHA256": "ce1a9d4e61f96e3904138d9da47ed7dc8c413c037e7b5cac1ff9c7b79c6bdebc",
+    "source": "defaults/config/neoforge-client.toml"
+  },
+  {
+    "name": "config--sodium-fingerprint.json",
+    "size": 427,
+    "MD5": "0c329b21342b22ed07398b3fcf8775ac",
+    "SHA256": "b15916408d27078762c9b7728d37126a4cb3a93ab74eb8329d3147e037f7b044",
+    "source": "defaults/config/sodium-fingerprint.json"
+  },
+  {
+    "name": "config--sodium-mixins.properties",
+    "size": 258,
+    "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+    "SHA256": "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01",
+    "source": "defaults/config/sodium-mixins.properties"
+  },
+  {
+    "name": "config--sodium-options.json",
+    "size": 743,
+    "MD5": "a73b2c676e2b7d75869a4e4faf046506",
+    "SHA256": "a254b8f531a8cef6ade6f1b860e80ee4cfbf5fb5905d0963c24b121c4f6518a2",
+    "source": "defaults/config/sodium-options.json"
+  },
+  {
+    "name": "shaderpacks--BSL_v10.1.5.zip",
+    "size": 1133936,
+    "MD5": "f1f6a07f62cf668b17c333d4c80b6f6f",
+    "SHA256": "1038c018934c43018f9517e326c0cafcf8a3fb83db0d2cce0697fa8ee1289838"
+  },
+  {
+    "name": "shaderpacks--ComplementaryReimagined_r5.9.1.zip",
+    "size": 552945,
+    "MD5": "5cd436e5bebc013fa1781b3cd6a9aad6",
+    "SHA256": "f2bc85507f8bfed274ede69fc7df3b6af3f35c5c98baea8bec95ebeb5f3eb79b"
+  },
+  {
+    "name": "shaderpacks--ComplementaryUnbound_r5.9.1.zip",
+    "size": 552949,
+    "MD5": "af14f654ae0f496d0aaa2deac0faff65",
+    "SHA256": "328a7e75422897ac57e9b914ec79842cb3881573c675eaed9f436c69400845ee"
+  },
+  {
+    "name": "options.txt",
+    "size": 138,
+    "MD5": "417bd77bdf54a370eb924842ee180f9d",
+    "SHA256": "8672d6ee788db7106915352a9dcafc4710af1937143917d8d932d85a2669cefe",
+    "source": "defaults/options.txt"
+  },
+  {
+    "name": "mods--journeymap-neoforge-26.2-6.0.10.jar",
+    "size": 4349252,
+    "MD5": "38c759166d0cb0978901ce11e3bf55cb",
+    "SHA256": "55aee71f8bbd5246cba6d7a1a4a22f1922e4cf2076ce9717c888e1290d6fc1d5"
+  },
+  {
+    "name": "servers.dat",
+    "size": 77,
+    "MD5": "c24f88ef9232dd396af20eb90f4dc617",
+    "SHA256": "9ab86316775467a15ed377612ec77a9001c575e684797cef5b8772f1299eb0a3",
+    "source": "defaults/servers.dat"
+  },
+  {
+    "name": "icon.png",
+    "size": 283588,
+    "MD5": "301d10892b6845b6a14d72e556e643ce",
+    "SHA256": "207396ff1293526f8cac8943330601f4b8f0b7f49e7fd47d23919b3292d750a2",
+    "source": "metadata/icon.png"
+  }
+]
