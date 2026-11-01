@@ -18,7 +18,7 @@ const download = async url => {
 assert.equal(distro.servers.length, 1)
 const server = distro.servers[0]
 assert.equal(server.id, 'DiamondCK-26.2')
-assert.equal(server.name, '다이아ck')
+assert.equal(server.name, '꼬몰리님 다이아')
 assert.equal(server.address, 'alicehiyam.dreamcraft.kr:25568')
 assert.equal(server.mainServer, true)
 assert.equal(server.minecraftVersion, '26.2')
@@ -84,7 +84,7 @@ assert.match(iris, /^enableShaders=true$/m)
 assert.match(iris, /^shaderPack=ComplementaryReimagined_r5.9.1.zip$/m)
 const serverList = await fs.readFile(path.join(root, 'defaults/servers.dat'))
 assert.equal(serverList[0], 10)
-assert.ok(serverList.includes(Buffer.from('다이아ck')))
+assert.ok(serverList.includes(Buffer.from('꼬몰리님 다이아')))
 assert.ok(serverList.includes(Buffer.from(server.address)))
 if (remote) {
     const live = await download('https://github.com/AliceGameLand/Dot-Distribution/releases/latest/download/distribution.json')

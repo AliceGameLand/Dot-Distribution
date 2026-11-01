@@ -1,6 +1,6 @@
 # 도트 전용 배포 작업 지침
 
-- 다이아ck의 ID는 `DiamondCK-26.2`, 접속 주소는 `alicehiyam.dreamcraft.kr:25568`이다.
+- 꼬몰리님 다이아의 ID는 `DiamondCK-26.2`, 접속 주소는 `alicehiyam.dreamcraft.kr:25568`이다.
 - 런처는 `AliceGameLand/Dot-Launcher`, 배포는 `AliceGameLand/Dot-Distribution`에서 독립 관리한다.
 - 원본 앨리스 런처·배포 저장소를 변경하지 않는다. 런타임 URL에 원본 배포 저장소를 참조하지 않는다.
 - Donation, Sophisticated Backpacks/Core, 기존 최적화·한글·미니맵 모드를 유지한다. AliceDiamondClient와 전용 리소스팩은 포함하지 않는다.

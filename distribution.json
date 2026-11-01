@@ -1,9 +1,9 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "servers": [
     {
       "id": "DiamondCK-26.2",
-      "name": "다이아ck",
+      "name": "꼬몰리님 다이아",
       "description": "Minecraft 26.2 · NeoForge",
       "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.0/diamond.png",
       "version": "1.0.0",
@@ -653,7 +653,7 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 77,
+            "size": 88,
             "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.0/servers.dat",
             "path": "servers.dat"
           }
