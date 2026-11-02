@@ -73,7 +73,8 @@ for (const record of records) {
     assert.equal(hash(bytes, 'md5'), record.MD5, record.name)
     assert.equal(hash(bytes, 'sha256'), record.SHA256, record.name)
     if (record.name === 'mods--KkommoliDiamondBridge-1.0.0.jar') {
-        for (const entry of ['client/GoalHud.class', 'client/GoalHudModel.class', 'bridge/GoalHudPayload.class']) {
+        for (const entry of ['client/GoalHud.class', 'client/GoalHudModel.class', 'bridge/GoalHudPayload.class',
+            'client/DonationRelay.class', 'bridge/DonationSettingsPayload.class']) {
             assert.ok(bytes.includes(Buffer.from(`kr/kkommoli/diamond/${entry}`)), `HUD class missing: ${entry}`)
         }
     }

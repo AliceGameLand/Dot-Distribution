@@ -203,9 +203,9 @@
   },
   {
     "name": "mods--KkommoliDiamondBridge-1.0.0.jar",
-    "size": 21895,
-    "MD5": "67039a7ffa1c7ee7f23fedaf988b4b65",
-    "SHA256": "6e486a8816596bb5c20219790a9461c9832d31dc5b341b063e27ca1dbab8c91a",
+    "size": 25657,
+    "MD5": "70648a111796a12a527a531536903dcd",
+    "SHA256": "dce17292f91c069bcdff2b83c2f916324ff4c04ae4182886eadee854db6b2669",
     "source": "modules/KkommoliDiamondBridge-1.0.0.jar"
   }
 ]
