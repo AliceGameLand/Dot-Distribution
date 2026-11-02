@@ -183,8 +183,8 @@
   {
     "name": "servers.dat",
     "size": 88,
-    "MD5": "5e4e0c9bacaf2a203d1061c66406e4c5",
-    "SHA256": "0abde2d80b885ad34433670688a550a0cfb16a8c484e24462af39f336360010a",
+    "MD5": "11fc1383bde290b1c1631c356b8d4996",
+    "SHA256": "3b14185742ce10a03072f7d0b166f59447ccb47bb71c0ec3e0719155a47614df",
     "source": "defaults/servers.dat"
   },
   {

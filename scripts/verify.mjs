@@ -19,7 +19,7 @@ assert.equal(distro.servers.length, 1)
 const server = distro.servers[0]
 assert.equal(server.id, 'DiamondCK-26.2')
 assert.equal(server.name, '꼬몰리님 다이아')
-assert.equal(server.address, 'alicehiyam.dreamcraft.kr:25568')
+assert.equal(server.address, 'alicehiyam.dreamcraft.kr:25567')
 assert.equal(server.mainServer, true)
 assert.equal(server.minecraftVersion, '26.2')
 assert.doesNotMatch(distroText, /AliceGameLand-Distribution|Dot0420|AliceDiamondClient|alice-diamond\.zip/)
