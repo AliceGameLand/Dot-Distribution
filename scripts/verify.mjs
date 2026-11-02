@@ -53,6 +53,7 @@ for (const prefix of ['donation-', 'sophisticatedbackpacks-', 'sophisticatedcore
 }
 assert.ok(modNames.includes('mods/donation-neoforge-26.2-3.0.1-kkommoli.jar'), 'Kkommoli donation relay missing')
 assert.ok(modNames.includes('mods/KkommoliDiamondBridge-1.0.0.jar'), 'Required donation bridge missing')
+assert.ok(modules.find(module => module.artifact.path === 'mods/KkommoliDiamondBridge-1.0.0.jar')?.artifact.MD5, 'HUD update must be hash-checked')
 assert.equal(modNames.filter(name => path.basename(name).startsWith('donation-')).length, 1, 'Duplicate donation mods')
 assert.equal(modNames.includes('mods/donation-neoforge-26.2-3.0.1-patched.jar'), false, 'Retired Alice relay must not be installed')
 for (const destination of ['options.txt', 'config/iris.properties', 'servers.dat']) {
@@ -70,6 +71,11 @@ for (const record of records) {
     assert.equal(bytes.length, record.size, record.name)
     assert.equal(hash(bytes, 'md5'), record.MD5, record.name)
     assert.equal(hash(bytes, 'sha256'), record.SHA256, record.name)
+    if (record.name === 'mods--KkommoliDiamondBridge-1.0.0.jar') {
+        for (const entry of ['client/GoalHud.class', 'client/GoalHudModel.class', 'bridge/GoalHudPayload.class']) {
+            assert.ok(bytes.includes(Buffer.from(`kr/kkommoli/diamond/${entry}`)), `HUD class missing: ${entry}`)
+        }
+    }
     if (record.source) assert.deepEqual(bytes, await fs.readFile(path.join(root, record.source)), record.name)
     for (const module of modules.filter(module => decodeURIComponent(new URL(module.artifact.url).pathname.split('/').at(-1)) === record.name)) {
         assert.equal(module.artifact.size, record.size, module.id)
