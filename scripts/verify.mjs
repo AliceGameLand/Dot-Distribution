@@ -48,7 +48,8 @@ function visit(module) {
 }
 for (const module of server.modules) visit(module)
 const modNames = [...paths].filter(destination => destination.startsWith('mods/'))
-for (const prefix of ['donation-', 'sophisticatedbackpacks-', 'sophisticatedcore-', 'sodium-', 'iris-', 'koreanify-', 'journeymap-']) {
+assert.equal(modNames.some(name => /journeymap|xaero|voxelmap/i.test(name)), false, 'Minimap must not be installed')
+for (const prefix of ['donation-', 'sophisticatedbackpacks-', 'sophisticatedcore-', 'sodium-', 'iris-', 'koreanify-']) {
     assert.ok(modNames.some(name => path.basename(name).startsWith(prefix)), `Required mod missing: ${prefix}`)
 }
 assert.ok(modNames.includes('mods/donation-neoforge-26.2-3.0.1-kkommoli.jar'), 'Kkommoli donation relay missing')

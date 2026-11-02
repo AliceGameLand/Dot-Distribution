@@ -1,12 +1,12 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "servers": [
     {
       "id": "DiamondCK-26.2",
       "name": "꼬몰리님 다이아",
       "description": "Minecraft 26.2 · NeoForge",
       "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.4/diamond.png",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "address": "alicehiyam.dreamcraft.kr:25568",
       "minecraftVersion": "26.2",
       "javaOptions": {
@@ -635,17 +635,6 @@
             "size": 138,
             "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.4/options.txt",
             "path": "options.txt"
-          }
-        },
-        {
-          "id": "dot-diamondck:mods/journeymap-neoforge-26.2-6.0.10.jar",
-          "name": "journeymap-neoforge-26.2-6.0.10.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4349252,
-            "MD5": "38c759166d0cb0978901ce11e3bf55cb",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.4/mods--journeymap-neoforge-26.2-6.0.10.jar",
-            "path": "mods/journeymap-neoforge-26.2-6.0.10.jar"
           }
         },
         {

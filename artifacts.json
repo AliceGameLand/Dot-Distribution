@@ -181,12 +181,6 @@
     "source": "defaults/options.txt"
   },
   {
-    "name": "mods--journeymap-neoforge-26.2-6.0.10.jar",
-    "size": 4349252,
-    "MD5": "38c759166d0cb0978901ce11e3bf55cb",
-    "SHA256": "55aee71f8bbd5246cba6d7a1a4a22f1922e4cf2076ce9717c888e1290d6fc1d5"
-  },
-  {
     "name": "servers.dat",
     "size": 88,
     "MD5": "5e4e0c9bacaf2a203d1061c66406e4c5",
