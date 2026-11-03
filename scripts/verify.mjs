@@ -32,6 +32,12 @@ let moduleCount = 0
 const modules = []
 function visit(module, paths) {
     modules.push(module)
+    // VersionManifest ID는 실제 폴더·파일명이므로 Maven ID의 콜론을 사용할 수 없다.
+    if (module.type === 'VersionManifest') {
+        assert.doesNotMatch(module.id, /[<>:"/\\|?*\x00-\x1f]/, `Invalid Windows manifest path: ${module.id}`)
+        assert.notEqual(module.id, '.')
+        assert.notEqual(module.id, '..')
+    }
     assert.ok(Number.isInteger(module.artifact.size) && module.artifact.size > 0)
     const url = new URL(module.artifact.url)
     assert.equal(url.protocol, 'https:')

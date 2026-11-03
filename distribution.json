@@ -1,5 +1,5 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "servers": [
     {
       "id": "DiamondCK-26.2",
@@ -665,7 +665,7 @@
       "name": "아마도 야생",
       "description": "Minecraft 26.3 · Fabric",
       "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/grass-block.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "oracle01.dreamcraft.kr:25566",
       "minecraftVersion": "26.3",
       "javaOptions": {
@@ -751,7 +751,7 @@
               }
             },
             {
-              "id": "dot-survival:fabric-26.3-version",
+              "id": "dot-survival-fabric-26.3-version",
               "name": "Fabric 26.3 version",
               "type": "VersionManifest",
               "artifact": {
