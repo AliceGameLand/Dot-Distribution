@@ -1,6 +1,8 @@
 # 도트 전용 배포 작업 지침
 
-- 꼬몰리님 다이아의 ID는 `DiamondCK-26.2`, 접속 주소는 `alicehiyam.dreamcraft.kr:25567`이다.
+- 꼼모리님 다이아의 ID는 `DiamondCK-26.2`, 접속 주소는 `alicehiyam.dreamcraft.kr:25567`이다.
+- 아마도 야생의 ID는 `MaybeSurvival-26.3`, 접속 주소는 `oracle01.dreamcraft.kr:25566`다. Fabric 26.3 최적화·한국어·셰이더 클라이언트이며 PvP HUD·후원·미니맵은 포함하지 않는다.
+- 야생 전용 초기 설정은 `defaults/survival/`, 모드는 `modules/survival/`에 저장한다. 서버별 options·Iris·서버 목록은 MD5 없이 최초 설치에만 제공한다.
 - 런처는 `AliceGameLand/Dot-Launcher`, 배포는 `AliceGameLand/Dot-Distribution`에서 독립 관리한다.
 - 원본 앨리스 런처·배포 저장소를 변경하지 않는다. 런타임 URL에 원본 배포 저장소를 참조하지 않는다.
 - Donation, Sophisticated Backpacks/Core, 기존 최적화·한글 모드를 유지한다. 미니맵(JourneyMap)은 포함하지 않는다. AliceDiamondClient와 전용 리소스팩은 포함하지 않는다.

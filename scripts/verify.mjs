@@ -15,10 +15,11 @@ const download = async url => {
     assert.equal(response.status, 200, `Download failed: ${url}`)
     return Buffer.from(await response.arrayBuffer())
 }
-assert.equal(distro.servers.length, 1)
+assert.equal(distro.servers.length, 2)
+assert.deepEqual(distro.servers.map(server => server.id), ['DiamondCK-26.2', 'MaybeSurvival-26.3'])
 const server = distro.servers[0]
 assert.equal(server.id, 'DiamondCK-26.2')
-assert.equal(server.name, '꼬몰리님 다이아')
+assert.equal(server.name, '꼼모리님 다이아')
 assert.equal(server.address, 'alicehiyam.dreamcraft.kr:25567')
 assert.equal(server.mainServer, true)
 assert.equal(server.minecraftVersion, '26.2')
@@ -27,10 +28,9 @@ assert.equal(server.modules.some(module => module.artifact?.path?.startsWith('re
 const base = new URL('.', server.icon)
 assert.equal(base.origin, 'https://github.com')
 assert.ok(base.pathname.startsWith('/AliceGameLand/Dot-Distribution/releases/download/'))
-const paths = new Set()
 let moduleCount = 0
 const modules = []
-function visit(module) {
+function visit(module, paths) {
     modules.push(module)
     assert.ok(Number.isInteger(module.artifact.size) && module.artifact.size > 0)
     const url = new URL(module.artifact.url)
@@ -43,10 +43,49 @@ function visit(module) {
         paths.add(destination)
         assert.ok(url.href.startsWith(base.href), `File outside own distribution: ${destination}`)
     }
-    for (const child of module.subModules ?? []) visit(child)
+    for (const child of module.subModules ?? []) visit(child, paths)
     moduleCount++
 }
-for (const module of server.modules) visit(module)
+const pathsByServer = new Map()
+for (const instance of distro.servers) {
+    const instancePaths = new Set()
+    pathsByServer.set(instance.id, instancePaths)
+    assert.equal(instance.mainServer, instance.id === 'DiamondCK-26.2')
+    assert.equal(new URL('.', instance.icon).href, base.href)
+    for (const module of instance.modules) visit(module, instancePaths)
+    for (const destination of ['options.txt', 'config/iris.properties', 'servers.dat']) {
+        assert.ok(instancePaths.has(destination))
+        assert.equal(instance.modules.find(module => module.artifact.path === destination)?.artifact.MD5, undefined)
+    }
+    const configPrefix = instance.id === 'DiamondCK-26.2' ? 'defaults' : 'defaults/survival'
+    for (const [destination, pattern] of [
+        ['options.txt', /^tutorialStep:none$/m], ['options.txt', /^guiScale:4$/m],
+        ['config/iris.properties', /^enableShaders=true$/m],
+        ['config/iris.properties', /^shaderPack=ComplementaryReimagined_r5.9.1.zip$/m]
+    ]) {
+        const configModule = instance.modules.find(module => module.artifact.path === destination)
+        const content = remote ? (await download(configModule.artifact.url)).toString('utf8')
+            : await fs.readFile(path.join(root, configPrefix, destination), 'utf8')
+        assert.match(content, pattern)
+    }
+    assert.ok(instancePaths.has('shaderpacks/ComplementaryReimagined_r5.9.1.zip'))
+    const list = await fs.readFile(path.join(root, configPrefix, 'servers.dat'))
+    assert.equal(list[0], 10)
+    assert.ok(list.includes(Buffer.from(instance.name)))
+    assert.ok(list.includes(Buffer.from(instance.address)))
+}
+const survival = distro.servers[1]
+assert.equal(survival.name, '아마도 야생')
+assert.equal(survival.minecraftVersion, '26.3')
+assert.equal(survival.address, 'oracle01.dreamcraft.kr:25566')
+assert.ok(survival.modules.some(module => module.type === 'Fabric'))
+assert.equal(survival.modules.some(module => module.type === 'NeoForge'), false)
+const survivalMods = [...pathsByServer.get(survival.id)].filter(destination => destination.startsWith('mods/'))
+assert.doesNotMatch(survivalMods.join(' '), /hud|donation|sophisticated|journeymap|xaero|voxelmap/i)
+for (const prefix of ['fabric-api-', 'sodium-', 'iris-', 'koreanify-', 'moreculling-', 'dynamic-fps-', 'ferritecore-', 'ImmediatelyFast-', 'lithium-', 'cloth-config-']) {
+    assert.ok(survivalMods.some(name => path.basename(name).startsWith(prefix)), `Required Survival mod missing: ${prefix}`)
+}
+const paths = pathsByServer.get(server.id)
 const modNames = [...paths].filter(destination => destination.startsWith('mods/'))
 assert.equal(modNames.some(name => /journeymap|xaero|voxelmap/i.test(name)), false, 'Minimap must not be installed')
 for (const prefix of ['donation-', 'sophisticatedbackpacks-', 'sophisticatedcore-', 'sodium-', 'iris-', 'koreanify-']) {
@@ -87,19 +126,12 @@ for (const record of records) {
 for (const module of modules.filter(module => module.artifact.url.startsWith(base.href))) {
     assert.ok(names.has(decodeURIComponent(new URL(module.artifact.url).pathname.split('/').at(-1))))
 }
-const options = await fs.readFile(path.join(root, 'defaults/options.txt'), 'utf8')
-assert.match(options, /^tutorialStep:none$/m)
-assert.match(options, /^guiScale:4$/m)
-assert.doesNotMatch(options, /alice-diamond|AliceDiamond/)
-const iris = await fs.readFile(path.join(root, 'defaults/config/iris.properties'), 'utf8')
-assert.match(iris, /^enableShaders=true$/m)
-assert.match(iris, /^shaderPack=ComplementaryReimagined_r5.9.1.zip$/m)
-const serverList = await fs.readFile(path.join(root, 'defaults/servers.dat'))
-assert.equal(serverList[0], 10)
-assert.ok(serverList.includes(Buffer.from('꼬몰리님 다이아')))
-assert.ok(serverList.includes(Buffer.from(server.address)))
+const grassIcon = await fs.readFile(path.join(root, 'metadata/grass-block.png'))
+assert.equal(grassIcon.toString('ascii', 1, 4), 'PNG')
+assert.equal(grassIcon.readUInt32BE(16), 64)
+assert.equal(grassIcon.readUInt32BE(20), 64)
 if (remote) {
     const live = await download('https://github.com/AliceGameLand/Dot-Distribution/releases/latest/download/distribution.json')
     assert.deepEqual(JSON.parse(live.toString()), distro)
 }
-console.log(`PASS: ${modNames.length} mods, ${moduleCount} modules, ${records.length} ${remote ? 'published' : 'staged'} assets, hashes and isolated configuration.`)
+console.log(`PASS: ${modNames.length} Diamond mods, ${survivalMods.length} Survival mods, ${moduleCount} modules, ${records.length} ${remote ? 'published' : 'staged'} assets, hashes and isolated configuration.`)

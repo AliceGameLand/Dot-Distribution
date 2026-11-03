@@ -1,0 +1,6 @@
+lang:ko_kr
+resourcePacks:["vanilla","mod_resources"]
+incompatibleResourcePacks:[]
+guiScale:4
+onboardAccessibility:false
+tutorialStep:none
