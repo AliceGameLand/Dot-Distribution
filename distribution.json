@@ -1,11 +1,11 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "servers": [
     {
       "id": "DiamondCK-26.2",
       "name": "꼼모리님 다이아",
       "description": "Minecraft 26.2 · NeoForge",
-      "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/diamond.png",
+      "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/diamond.png",
       "version": "1.0.8",
       "address": "alicehiyam.dreamcraft.kr:25567",
       "minecraftVersion": "26.2",
@@ -38,7 +38,7 @@
               "artifact": {
                 "size": 11561,
                 "MD5": "40c09b8fbb88cfa6639d1557f83cf2b5",
-                "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/neoforge-26.2.0.60-version.json"
+                "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/neoforge-26.2.0.60-version.json"
               }
             },
             {
@@ -347,7 +347,7 @@
           "artifact": {
             "size": 100062,
             "MD5": "6b3af3891b67f8e6cac866e40898b486",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--ImmediatelyFast-NeoForge-1.16.3%2B26.2.jar",
             "path": "mods/ImmediatelyFast-NeoForge-1.16.3+26.2.jar"
           }
         },
@@ -358,7 +358,7 @@
           "artifact": {
             "size": 1135847,
             "MD5": "fb6cd45d0b6a3cca7c2e33064eec7d37",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--cloth-config-26.2.155.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--cloth-config-26.2.155.jar",
             "path": "mods/cloth-config-26.2.155.jar"
           }
         },
@@ -369,7 +369,7 @@
           "artifact": {
             "size": 832562,
             "MD5": "d4115b6a5ea187a16fe8ec16ee97268d",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--donation-neoforge-26.2-3.0.1-kkommoli.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--donation-neoforge-26.2-3.0.1-kkommoli.jar",
             "path": "mods/donation-neoforge-26.2-3.0.1-kkommoli.jar"
           }
         },
@@ -380,7 +380,7 @@
           "artifact": {
             "size": 185732,
             "MD5": "8b2956d8a2dc4846ba9c3e54d885cce6",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--dynamic-fps-3.11.9%2Bminecraft-26.2.0-neoforge.jar",
             "path": "mods/dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar"
           }
         },
@@ -391,7 +391,7 @@
           "artifact": {
             "size": 11187,
             "MD5": "d0077b329847194486167639b26f715a",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--fast-ip-ping-v1.0.11-mc26.1.2.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--fast-ip-ping-v1.0.11-mc26.1.2.jar",
             "path": "mods/fast-ip-ping-v1.0.11-mc26.1.2.jar"
           }
         },
@@ -402,7 +402,7 @@
           "artifact": {
             "size": 71947,
             "MD5": "b2fde13466c357340262d60a213f8805",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--ferritecore-9.0.0-neoforge.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--ferritecore-9.0.0-neoforge.jar",
             "path": "mods/ferritecore-9.0.0-neoforge.jar"
           }
         },
@@ -413,7 +413,7 @@
           "artifact": {
             "size": 2751198,
             "MD5": "f7d81c2ae001ae4b67c8aa37d10b81ff",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--iris-neoforge-1.11.2%2Bmc26.2.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--iris-neoforge-1.11.2%2Bmc26.2.jar",
             "path": "mods/iris-neoforge-1.11.2+mc26.2.jar"
           }
         },
@@ -424,7 +424,7 @@
           "artifact": {
             "size": 75265,
             "MD5": "dfe88a8f5b7f71825b4853a3b4568eef",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--koreanify-neoforge-0.1.10%2Bmc26.1.2.jar",
             "path": "mods/koreanify-neoforge-0.1.10+mc26.1.2.jar"
           }
         },
@@ -435,7 +435,7 @@
           "artifact": {
             "size": 904073,
             "MD5": "76dd1e0241a8a350ff3a249502243fd2",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--lithium-neoforge-0.25.3%2Bmc26.2.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--lithium-neoforge-0.25.3%2Bmc26.2.jar",
             "path": "mods/lithium-neoforge-0.25.3+mc26.2.jar"
           }
         },
@@ -446,7 +446,7 @@
           "artifact": {
             "size": 349733,
             "MD5": "a55e6bfed0ba141f94e7743fc190f501",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--moreculling-neoforge-26.2-1.8.1.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--moreculling-neoforge-26.2-1.8.1.jar",
             "path": "mods/moreculling-neoforge-26.2-1.8.1.jar"
           }
         },
@@ -457,7 +457,7 @@
           "artifact": {
             "size": 1128681,
             "MD5": "3d78443ef59b6049ecd2847a6055a0b1",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--sodium-neoforge-0.9.1%2Bmc26.2.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--sodium-neoforge-0.9.1%2Bmc26.2.jar",
             "path": "mods/sodium-neoforge-0.9.1+mc26.2.jar"
           }
         },
@@ -468,7 +468,7 @@
           "artifact": {
             "size": 1264857,
             "MD5": "76cadcd36a7d51ecabdc9703e83cc497",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--sophisticatedbackpacks-26.2-3.26.2.2154.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--sophisticatedbackpacks-26.2-3.26.2.2154.jar",
             "path": "mods/sophisticatedbackpacks-26.2-3.26.2.2154.jar"
           }
         },
@@ -479,7 +479,7 @@
           "artifact": {
             "size": 1834409,
             "MD5": "fc6848147c2c4dd2140352d2f4ab0310",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--sophisticatedcore-26.2-1.5.0.2337.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--sophisticatedcore-26.2-1.5.0.2337.jar",
             "path": "mods/sophisticatedcore-26.2-1.5.0.2337.jar"
           }
         },
@@ -489,7 +489,7 @@
           "type": "File",
           "artifact": {
             "size": 3,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--dynamic_fps.json",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--dynamic_fps.json",
             "path": "config/dynamic_fps.json"
           }
         },
@@ -499,7 +499,7 @@
           "type": "File",
           "artifact": {
             "size": 809,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--ferritecore-mixin.toml",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--ferritecore-mixin.toml",
             "path": "config/ferritecore-mixin.toml"
           }
         },
@@ -509,7 +509,7 @@
           "type": "File",
           "artifact": {
             "size": 912,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--immediatelyfast.json",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--immediatelyfast.json",
             "path": "config/immediatelyfast.json"
           }
         },
@@ -519,7 +519,7 @@
           "type": "File",
           "artifact": {
             "size": 31,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--iris-excluded.json",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--iris-excluded.json",
             "path": "config/iris-excluded.json"
           }
         },
@@ -529,7 +529,7 @@
           "type": "File",
           "artifact": {
             "size": 276,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--iris.properties",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--iris.properties",
             "path": "config/iris.properties"
           }
         },
@@ -539,7 +539,7 @@
           "type": "File",
           "artifact": {
             "size": 267,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--lithium.properties",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--lithium.properties",
             "path": "config/lithium.properties"
           }
         },
@@ -549,7 +549,7 @@
           "type": "File",
           "artifact": {
             "size": 495,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--moreculling.toml",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--moreculling.toml",
             "path": "config/moreculling.toml"
           }
         },
@@ -560,7 +560,7 @@
           "artifact": {
             "size": 1456,
             "MD5": "c14015609f5e20ae457434d5cf5fe484",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--neoforge-client.toml",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--neoforge-client.toml",
             "path": "config/neoforge-client.toml"
           }
         },
@@ -570,7 +570,7 @@
           "type": "File",
           "artifact": {
             "size": 427,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--sodium-fingerprint.json",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--sodium-fingerprint.json",
             "path": "config/sodium-fingerprint.json"
           }
         },
@@ -580,7 +580,7 @@
           "type": "File",
           "artifact": {
             "size": 258,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--sodium-mixins.properties",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--sodium-mixins.properties",
             "path": "config/sodium-mixins.properties"
           }
         },
@@ -590,7 +590,7 @@
           "type": "File",
           "artifact": {
             "size": 743,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/config--sodium-options.json",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/config--sodium-options.json",
             "path": "config/sodium-options.json"
           }
         },
@@ -601,7 +601,7 @@
           "artifact": {
             "size": 1133936,
             "MD5": "f1f6a07f62cf668b17c333d4c80b6f6f",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/shaderpacks--BSL_v10.1.5.zip",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/shaderpacks--BSL_v10.1.5.zip",
             "path": "shaderpacks/BSL_v10.1.5.zip"
           }
         },
@@ -612,7 +612,7 @@
           "artifact": {
             "size": 552945,
             "MD5": "5cd436e5bebc013fa1781b3cd6a9aad6",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/shaderpacks--ComplementaryReimagined_r5.9.1.zip",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/shaderpacks--ComplementaryReimagined_r5.9.1.zip",
             "path": "shaderpacks/ComplementaryReimagined_r5.9.1.zip"
           }
         },
@@ -623,7 +623,7 @@
           "artifact": {
             "size": 552949,
             "MD5": "af14f654ae0f496d0aaa2deac0faff65",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/shaderpacks--ComplementaryUnbound_r5.9.1.zip",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/shaderpacks--ComplementaryUnbound_r5.9.1.zip",
             "path": "shaderpacks/ComplementaryUnbound_r5.9.1.zip"
           }
         },
@@ -633,7 +633,7 @@
           "type": "File",
           "artifact": {
             "size": 138,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/options.txt",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/options.txt",
             "path": "options.txt"
           }
         },
@@ -643,7 +643,7 @@
           "type": "File",
           "artifact": {
             "size": 88,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/servers.dat",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/servers.dat",
             "path": "servers.dat"
           }
         },
@@ -654,7 +654,7 @@
           "artifact": {
             "size": 25657,
             "MD5": "70648a111796a12a527a531536903dcd",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/mods--KkommoliDiamondBridge-1.0.0.jar",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/mods--KkommoliDiamondBridge-1.0.0.jar",
             "path": "mods/KkommoliDiamondBridge-1.0.0.jar"
           }
         }
@@ -664,8 +664,8 @@
       "id": "MaybeSurvival-26.3",
       "name": "아마도 야생",
       "description": "Minecraft 26.3 · Fabric",
-      "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/grass-block.png",
-      "version": "1.0.1",
+      "icon": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/grass-block.png",
+      "version": "1.0.2",
       "address": "oracle01.dreamcraft.kr:25566",
       "minecraftVersion": "26.3",
       "javaOptions": {
@@ -756,7 +756,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 3263,
-                "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/fabric-26.3-0.19.5.json",
+                "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/fabric-26.3-0.19.5.json",
                 "MD5": "3403d00511d55189b7254fb45d93fec7"
               }
             }
@@ -770,7 +770,7 @@
             "path": "mods/fabric-api-0.163.0+26.3.jar",
             "size": 1774707,
             "MD5": "e3de98c7b25b1bdacd8005cd3030ed95",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--fabric-api-0.163.0%2B26.3.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--fabric-api-0.163.0%2B26.3.jar"
           }
         },
         {
@@ -781,7 +781,7 @@
             "path": "mods/sodium-fabric-0.9.2+mc26.3.jar",
             "size": 1908068,
             "MD5": "cdb88a33f405f700021f24274e2ab852",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--sodium-fabric-0.9.2%2Bmc26.3.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--sodium-fabric-0.9.2%2Bmc26.3.jar"
           }
         },
         {
@@ -792,7 +792,7 @@
             "path": "mods/lithium-fabric-0.26.2+mc26.3.jar",
             "size": 914543,
             "MD5": "4bb4ada83b50bb026550b20aabcad32c",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--lithium-fabric-0.26.2%2Bmc26.3.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--lithium-fabric-0.26.2%2Bmc26.3.jar"
           }
         },
         {
@@ -803,7 +803,7 @@
             "path": "mods/ferritecore-9.0.0-fabric.jar",
             "size": 72677,
             "MD5": "9d96f643cfd220b75f47c94ea56ebc2a",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--ferritecore-9.0.0-fabric.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--ferritecore-9.0.0-fabric.jar"
           }
         },
         {
@@ -814,7 +814,7 @@
             "path": "mods/ImmediatelyFast-Fabric-1.17.1+26.3.jar",
             "size": 99586,
             "MD5": "72773f07e9918a16f1f058c7e3aa8dea",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--ImmediatelyFast-Fabric-1.17.1%2B26.3.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--ImmediatelyFast-Fabric-1.17.1%2B26.3.jar"
           }
         },
         {
@@ -825,7 +825,7 @@
             "path": "mods/moreculling-fabric-26.3-1.9.0.jar",
             "size": 294320,
             "MD5": "44dd60956fe1f666b2c06f4c957f0b8e",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--moreculling-fabric-26.3-1.9.0.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--moreculling-fabric-26.3-1.9.0.jar"
           }
         },
         {
@@ -836,7 +836,7 @@
             "path": "mods/dynamic-fps-3.11.10+minecraft-26.3.0-fabric.jar",
             "size": 189474,
             "MD5": "0b5600c4d6825890c9cc9a2b9727c5f9",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--dynamic-fps-3.11.10%2Bminecraft-26.3.0-fabric.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--dynamic-fps-3.11.10%2Bminecraft-26.3.0-fabric.jar"
           }
         },
         {
@@ -847,7 +847,7 @@
             "path": "mods/koreanify-fabric-0.2.0+mc26.3.jar",
             "size": 87896,
             "MD5": "2cf599852581ec2367d4c4f014e9e0aa",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--koreanify-fabric-0.2.0%2Bmc26.3.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--koreanify-fabric-0.2.0%2Bmc26.3.jar"
           }
         },
         {
@@ -858,7 +858,7 @@
             "path": "mods/iris-fabric-1.11.7+mc26.3.jar",
             "size": 2850938,
             "MD5": "6e390346ffb4f04e670d7f0ffc04887f",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--iris-fabric-1.11.7%2Bmc26.3.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--iris-fabric-1.11.7%2Bmc26.3.jar"
           }
         },
         {
@@ -869,7 +869,7 @@
             "path": "mods/cloth-config-fabric-26.3.159.jar",
             "size": 1135009,
             "MD5": "ad876761ca3b7ace3b026bc901dd493e",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--mods--cloth-config-fabric-26.3.159.jar"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--cloth-config-fabric-26.3.159.jar"
           }
         },
         {
@@ -879,7 +879,7 @@
           "artifact": {
             "path": "options.txt",
             "size": 138,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--options.txt"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--options.txt"
           }
         },
         {
@@ -889,7 +889,7 @@
           "artifact": {
             "path": "config/iris.properties",
             "size": 276,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--config--iris.properties"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--config--iris.properties"
           }
         },
         {
@@ -899,7 +899,7 @@
           "artifact": {
             "path": "servers.dat",
             "size": 80,
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/survival--servers.dat"
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--servers.dat"
           }
         },
         {
@@ -909,7 +909,7 @@
           "artifact": {
             "size": 1133936,
             "MD5": "f1f6a07f62cf668b17c333d4c80b6f6f",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/shaderpacks--BSL_v10.1.5.zip",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/shaderpacks--BSL_v10.1.5.zip",
             "path": "shaderpacks/BSL_v10.1.5.zip"
           }
         },
@@ -920,7 +920,7 @@
           "artifact": {
             "size": 552945,
             "MD5": "5cd436e5bebc013fa1781b3cd6a9aad6",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/shaderpacks--ComplementaryReimagined_r5.9.1.zip",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/shaderpacks--ComplementaryReimagined_r5.9.1.zip",
             "path": "shaderpacks/ComplementaryReimagined_r5.9.1.zip"
           }
         },
@@ -931,8 +931,19 @@
           "artifact": {
             "size": 552949,
             "MD5": "af14f654ae0f496d0aaa2deac0faff65",
-            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.8/shaderpacks--ComplementaryUnbound_r5.9.1.zip",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/shaderpacks--ComplementaryUnbound_r5.9.1.zip",
             "path": "shaderpacks/ComplementaryUnbound_r5.9.1.zip"
+          }
+        },
+        {
+          "id": "dot-survival:journeymap",
+          "name": "JourneyMap 6.0.10 for Fabric 26.3",
+          "type": "File",
+          "artifact": {
+            "path": "mods/journeymap-fabric-26.3-6.0.10.jar",
+            "size": 4384661,
+            "MD5": "f36492b1e6ab259e05ebd27af890e070",
+            "url": "https://github.com/AliceGameLand/Dot-Distribution/releases/download/client-v1.0.10/survival--mods--journeymap-fabric-26.3-6.0.10.jar"
           }
         }
       ]

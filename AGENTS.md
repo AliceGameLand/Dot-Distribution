@@ -1,11 +1,11 @@
 # 도트 전용 배포 작업 지침
 
 - 꼼모리님 다이아의 ID는 `DiamondCK-26.2`, 접속 주소는 `alicehiyam.dreamcraft.kr:25567`이다.
-- 아마도 야생의 ID는 `MaybeSurvival-26.3`, 접속 주소는 `oracle01.dreamcraft.kr:25566`다. Fabric 26.3 최적화·한국어·셰이더 클라이언트이며 PvP HUD·후원·미니맵은 포함하지 않는다.
+- 아마도 야생의 ID는 `MaybeSurvival-26.3`, 접속 주소는 `oracle01.dreamcraft.kr:25566`다. Fabric 26.3 최적화·한국어·셰이더와 JourneyMap 6.0.10 미니맵을 포함하며 PvP HUD·후원은 포함하지 않는다.
 - 야생 전용 초기 설정은 `defaults/survival/`, 모드는 `modules/survival/`에 저장한다. 서버별 options·Iris·서버 목록은 MD5 없이 최초 설치에만 제공한다.
 - 런처는 `AliceGameLand/Dot-Launcher`, 배포는 `AliceGameLand/Dot-Distribution`에서 독립 관리한다.
 - 원본 앨리스 런처·배포 저장소를 변경하지 않는다. 런타임 URL에 원본 배포 저장소를 참조하지 않는다.
-- Donation, Sophisticated Backpacks/Core, 기존 최적화·한글 모드를 유지한다. 미니맵(JourneyMap)은 포함하지 않는다. AliceDiamondClient와 전용 리소스팩은 포함하지 않는다.
+- 다이아에는 Donation, Sophisticated Backpacks/Core, 기존 최적화·한글 모드를 유지하고 미니맵은 포함하지 않는다. AliceDiamondClient와 전용 리소스팩은 두 서버 모두 포함하지 않는다.
 - 옵션·Iris 설정·서버 목록은 최초 설치에만 제공한다. 해당 모듈에 MD5를 추가하여 기존 사용자 설정을 덮어쓰지 않는다.
 - 기본 설정을 수정하면 `npm run prepare`로 해시를 갱신하고 `npm run verify`를 수행한다. 게시 후 `npm run verify:remote`로 실제 다운로드를 검증한다.
 - `.release-assets`는 Git에 넣지 않고 GitHub 릴리스에 게시한다. `distribution.json`은 릴리스 자산으로도 함께 게시한다.

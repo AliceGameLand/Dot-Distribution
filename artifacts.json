@@ -312,5 +312,12 @@
     "MD5": "b6f89913418b028ff9a8ea9b2487fe04",
     "SHA256": "6668bc1bfb5a99b4f2a3f2055bd1b101fc44d1213b14deb20a1325f1730a99a5",
     "source": "metadata/grass-block.png"
+  },
+  {
+    "name": "survival--mods--journeymap-fabric-26.3-6.0.10.jar",
+    "size": 4384661,
+    "MD5": "f36492b1e6ab259e05ebd27af890e070",
+    "SHA256": "9bc9395f481d0bcb65d69aed23749120e7ccd287805bae96beefbc0efdafd56c",
+    "source": "modules/survival/journeymap-fabric-26.3-6.0.10.jar"
   }
 ]

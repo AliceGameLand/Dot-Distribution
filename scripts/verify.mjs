@@ -87,7 +87,8 @@ assert.equal(survival.address, 'oracle01.dreamcraft.kr:25566')
 assert.ok(survival.modules.some(module => module.type === 'Fabric'))
 assert.equal(survival.modules.some(module => module.type === 'NeoForge'), false)
 const survivalMods = [...pathsByServer.get(survival.id)].filter(destination => destination.startsWith('mods/'))
-assert.doesNotMatch(survivalMods.join(' '), /hud|donation|sophisticated|journeymap|xaero|voxelmap/i)
+assert.doesNotMatch(survivalMods.join(' '), /hud|donation|sophisticated|xaero|voxelmap/i)
+assert.ok(survivalMods.includes('mods/journeymap-fabric-26.3-6.0.10.jar'), 'Required Survival minimap missing')
 for (const prefix of ['fabric-api-', 'sodium-', 'iris-', 'koreanify-', 'moreculling-', 'dynamic-fps-', 'ferritecore-', 'ImmediatelyFast-', 'lithium-', 'cloth-config-']) {
     assert.ok(survivalMods.some(name => path.basename(name).startsWith(prefix)), `Required Survival mod missing: ${prefix}`)
 }
